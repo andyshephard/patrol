@@ -3,8 +3,7 @@ description: >
   Command-line tool for Patrol, a powerful Flutter-native UI testing framework.
 version: 1.1.9 # Must be kept in sync with constants.dart
 homepage: https://patrol.leancode.co
-repository: https://github.com/leancodepl/patrol
-issue_tracker: https://github.com/leancodepl/patrol/issues
+publish_to: none
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
@@ -22,7 +21,7 @@ dependencies:
   freezed_annotation: ^2.2.0
   glob: ^2.1.1
   http: ^0.13.5
-  mason_logger: ^0.2.4
+  mason_logger: '0.2.5'
   meta: ^1.9.0
   path: ^1.8.3
   platform: ^3.1.0
